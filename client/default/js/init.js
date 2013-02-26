@@ -43,7 +43,7 @@ $fh.ready(function() {
     // See: http://docs.feedhenry.com/wiki/Actions
     $fh.act(
       {
-        act:'myFunction',
+        act:'myFunction1',
         req: {
           num: rand1
         }
@@ -67,7 +67,7 @@ $fh.ready(function() {
     // See: http://docs.feedhenry.com/wiki/Actions
     $fh.act(
       {
-        act:'myFunction',
+        act:'myFunction2',
         req: {
           num: rand2
         }
